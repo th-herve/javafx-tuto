@@ -1,0 +1,40 @@
+
+.root {
+    -fx-font-family: 'JetBrains Mono';
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: lightblue;
+}
+
+.label {
+    -fx-text-fill: red;
+    -fx-min-width: 150px;
+}
+
+.button {
+    -fx-pref-width: 100px;
+}
+
+#title {
+    -fx-font-size: 30px;
+}
+
+.fancy-button {
+    -fx-background-color: green;
+}
+
+.fancy-button:hover {
+    -fx-background-color: darkgreen;
+}
+
+.fancy-button:pressed {
+    -fx-background-color: cyan;
+}
+
+.text-field {
+    -fx-border-color: blue;
+    -fx-border-width: 3px;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-pref-column-count: 25;
+}
